@@ -35,7 +35,9 @@ if ENVIRONMENT == 'development':
 else:
     DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'real-time-chat-298o.onrender.com']
+
+CSRF_TRUSTED_ORIGIN = [ 'https://real-time-chat-298o.onrender.com' ]
 
 INTERNAL_IPS = (
     '127.0.0.1',
