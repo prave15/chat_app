@@ -4,4 +4,3 @@ media/
 migrations/
 db.sqlite3
 .env
-pipfile
